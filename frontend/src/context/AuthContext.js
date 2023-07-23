@@ -71,6 +71,7 @@ export const AuthProvider = ({children}) =>{
         authentication: authentication,
         loginUser:loginUser,
         logoutUser:logoutUser,
+        authToken: authToken,
     }
 
     useEffect(()=>{
@@ -89,3 +90,5 @@ export const AuthProvider = ({children}) =>{
         </AuthContext.Provider>
     )
 }
+
+
